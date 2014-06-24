@@ -549,9 +549,9 @@ dalvik
   * Dvm.mk
   * **oo**
     * Object.h : Define taint tag in ArrayObject header and Class field 
-    * Array.cpp
+    * Array.cpp : Clear taint tag of ArrayObject when new ArrayObject is allocated.
     * ObjectInlines.h
-    * Class.cpp
+    * Class.cpp : Clear taint tag of class field when static class field is initialized.
   * Debugger.cpp
 * Android.mk
 * README_TAINTDROID.txt
