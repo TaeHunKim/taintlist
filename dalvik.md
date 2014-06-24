@@ -53,7 +53,7 @@ dalvik
     * java_lang_reflect_Field.cpp
     * java_lang_Float.cpp
     * java_lang_Double.cpp
-    * java_lang_System.cpp
+    * java_lang_System.cpp : Edit arraycopy method to copy taint tag of source array and source position to destination array.
     * InternalNative.cpp
   * Init.cpp
   * **compiler**
