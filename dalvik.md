@@ -548,7 +548,7 @@ dalvik
   * Dalvik.h
   * Dvm.mk
   * **oo**
-    * Object.h
+    * Object.h : Define taint tag in ArrayObject header and Class field 
     * Array.cpp
     * ObjectInlines.h
     * Class.cpp
