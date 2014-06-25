@@ -46,14 +46,14 @@ dalvik
     * Visit.cpp
   * Atomic.h
   * **native**
-    * dalvik_system_Taint.cpp
-    * java_lang_Math.cpp
+    * dalvik_system_Taint.cpp : Methods for add and get taint tag by type of variable are defined.
+    * java_lang_Math.cpp : 
     * java_lang_String.cpp
     * InternalNativePriv.h
     * java_lang_reflect_Field.cpp
     * java_lang_Float.cpp
     * java_lang_Double.cpp
-    * java_lang_System.cpp : Edit arraycopy method to copy taint tag of source array and source position to destination array.
+    * java_lang_System.cpp : 'arraycopy' method is edited to copy taint tag of source array and source position to destination array.
     * InternalNative.cpp
   * Init.cpp
   * **compiler**
